@@ -46,3 +46,10 @@ df.str.strip()           # Leerzeichen entfernen
 df.plot()                # Diagramm erstellen
 plt.show()               # Diagramm anzeigen
 ```
+
+## 📈 Visualisierung
+
+Die Ergebnisse werden als Diagramme dargestellt:
+
+- Bar Charts für Städtevergleiche  
+- Pie Chart für Verteilung
