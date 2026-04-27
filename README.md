@@ -41,3 +41,16 @@ df.astype()              # Datentyp ändern
 df.str.strip()           # Leerzeichen entfernen
 df.plot()                # Diagramm erstellen
 plt.show()               # Diagramm zeigen als datei.png
+
+---
+
+## 📈 Visualisierung
+
+### Bar Chart – Alle Städte
+![Chart](chart1.png)
+
+### Bar Chart – Große Städte
+![Chart](chart2.png)
+
+### Pie Chart – Verteilung
+![Chart](chart3.png)
