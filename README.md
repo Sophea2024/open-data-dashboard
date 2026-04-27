@@ -45,3 +45,4 @@ df.astype()              # Datentyp ändern
 df.str.strip()           # Leerzeichen entfernen
 df.plot()                # Diagramm erstellen
 plt.show()               # Diagramm anzeigen
+```
