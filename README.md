@@ -1,36 +1,38 @@
-# Open Data Analysis Project
+# 📊 Open Data Analysis Project
 
-Projekt: Verarbeitung, Bereinigung und Analyse von CSV-Daten mit Python und pandas.
+Dieses Projekt zeigt die Verarbeitung, Bereinigung und Visualisierung von CSV-Daten mit Python und pandas.
 
-## Features
+---
+
+## 🚀 Features
 
 - Laden von CSV-Daten (pandas)
 - Datenanalyse (Durchschnitt, Maximum)
 - Filtern von Daten
-- **Datenbereinigung (Data Cleaning)**:
-  - Entfernen von fehlenden Werten
-  - Ersetzen fehlender Daten
-  - Entfernen von Duplikaten
-  - Bereinigung von Strings
-  - Korrektur von Datentypen
-  
+- Datenbereinigung (Data Cleaning)
+- Erstellung von Diagrammen (Visualisierung)
+
 ---
 
-## Data Cleaning:
+## 🧹 Data Cleaning
 
-In diesem Schritt werden typische Probleme in realen Datensätzen behandelt:
+In diesem Projekt werden typische Probleme realer Datensätze behandelt:
 
 ### Erkannte Probleme:
-
 - Fehlende Werte (NaN)
 - Doppelte Einträge
 - Unsaubere Strings (Leerzeichen)
 - Falsche Datentypen
-- Diagramme erstellen
+
+### Lösungen:
+- Entfernen oder Ersetzen fehlender Werte
+- Entfernen von Duplikaten
+- Bereinigung von Strings
+- Korrektur von Datentypen
 
 ---
 
-## Verwendete Methoden
+## 🛠️ Verwendete Methoden
 
 ```python
 df.isnull().sum()        # Fehlende Werte erkennen
@@ -40,17 +42,4 @@ df.drop_duplicates()     # Duplikate entfernen
 df.astype()              # Datentyp ändern
 df.str.strip()           # Leerzeichen entfernen
 df.plot()                # Diagramm erstellen
-plt.show()               # Diagramm zeigen als datei.png
-
----
-
-## 📈 Visualisierung
-
-### Bar Chart – Alle Städte
-![Chart](chart1.png)
-
-### Bar Chart – Große Städte
-![Chart](chart2.png)
-
-### Pie Chart – Verteilung
-![Chart](chart3.png)
+plt.show()               # Diagramm anzeigen
