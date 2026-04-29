@@ -47,6 +47,10 @@ df.plot()                # Diagramm erstellen
 plt.show()               # Diagramm anzeigen
 ```
 
+---
+
+## Visualisierung
+
 Die Ergebnisse werden als Diagramme dargestellt:
 
 - Bar Charts für Städtevergleiche  
@@ -61,3 +65,9 @@ Starten mit:
 ```bash
 streamlit run app.py
 ```
+
+---
+
+## Live Demo
+
+[Open Data ansehen](https://open-data-dashboard.streamlit.app)
