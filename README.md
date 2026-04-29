@@ -1,10 +1,10 @@
-#  Open Data Analysis Project
+# Open Data Analysis Project
 
 Dieses Projekt zeigt die Verarbeitung, Bereinigung und Visualisierung von CSV-Daten mit Python und pandas.
 
 ---
 
-##  Features
+## Features
 
 - Laden von CSV-Daten (pandas)
 - Datenanalyse (Durchschnitt, Maximum)
@@ -14,7 +14,7 @@ Dieses Projekt zeigt die Verarbeitung, Bereinigung und Visualisierung von CSV-Da
 
 ---
 
-##  Data Cleaning
+## Data Cleaning
 
 In diesem Projekt werden typische Probleme realer Datensätze behandelt:
 
@@ -34,7 +34,7 @@ In diesem Projekt werden typische Probleme realer Datensätze behandelt:
 
 ---
 
-##  Verwendete Methoden
+## Verwendete Methoden
 
 ```python
 df.isnull().sum()        # Fehlende Werte erkennen
@@ -47,9 +47,17 @@ df.plot()                # Diagramm erstellen
 plt.show()               # Diagramm anzeigen
 ```
 
-##  Visualisierung
-
 Die Ergebnisse werden als Diagramme dargestellt:
 
 - Bar Charts für Städtevergleiche  
 - Pie Chart für Verteilung
+
+## Dashoard (Streamlit)
+
+Interaktive Web-App zur Datenanalyse.
+
+Starten mit:
+
+```bash
+streamlit run app.py
+```
