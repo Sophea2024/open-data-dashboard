@@ -1,8 +1,10 @@
-name,city,population,beruf
-Anna,Berlin,3700000,Entwicklerin
-Tom,Hamburg,,Lehrer
-Lisa,München,1500000,
-Max,Köln,1000000,Ingenieur
-Sara,Frankfurt,750000,Analystin
-Tom,Hamburg,,Lehrer
-Tina,Stuttgart,600000,Krankenschwester
+name,city,population,country,beruf
+Anna,Berlin,3700000,Deutschland,Entwicklerin
+Tom,Hamburg,,Deutschland,Lehrer
+Betina,Brüssel,,Belgern,Bankberaterin
+Lisa,München,1500000,Deutschland,
+Max,Köln,1000000,Deutschland,Ingenieur
+Sara,Frankfurt,750000,Deutschland,Analystin
+Tom,Hamburg,,Deutschland,Lehrer
+Tina,Stuttgart,600000,Deutschland,Krankenschwester
+Dara,Phnom Penh,85000,Kambodscha,Taxifahrer

@@ -12,8 +12,13 @@ df = pd.read_csv("data.csv")
 st.subheader("Daten")
 st.write(df)
 
+# Dropdown
+country = st.selectbox("Wähle ein Land", sorted(df["country"].unique()))
+
+df_country = df[df["country"] == country]
+
 # Filter (Stadt auswählen)
-city = st.selectbox("Wählen eine Stadt", df["city"].unique())
+city = st.selectbox("Wähle eine Stadt", df_country["city"].unique())
 
 filtered_df= df[df["city"] == city]
 
